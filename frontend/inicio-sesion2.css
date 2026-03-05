@@ -7,7 +7,11 @@ body {
   align-items: center;
   height: 100vh; /* ocupa toda la pantalla */
   font-family: sans-serif;
+
   background-image: url("../imagenes/fondorecycling.jpeg"); /* cambia al nombre correcto */
+
+  background-image: url("../imagenes/fondo-recycling-points.jpg.jpeg"); /* cambia al nombre correcto */
+
   background-size: cover;   
   background-position: center;
   background-repeat: no-repeat;

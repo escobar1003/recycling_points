@@ -8,7 +8,11 @@
 body {
     
     color: white;
-    background-image: url(../imagenes/fondorecycling.jpeg);
+
+    
+
+    background-image: url(../imagenes/fondo-recycling-points.jpg.jpeg);
+
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;   

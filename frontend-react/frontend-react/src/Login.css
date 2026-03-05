@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #eaf5ec;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Simula pantalla móvil */
+.mobile-container {
+  width: 360px;
+  height: 640px;
+  background: white;
+  border-radius: 25px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-card {
+  width: 85%;
+  text-align: center;
+}
+
+.title {
+  color: #2e7d32;
+  margin-bottom: 5px;
+}
+
+.subtitle {
+  color: #5f8f63;
+  font-size: 14px;
+  margin-bottom: 25px;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  border: 1px solid #c8e6c9;
+  outline: none;
+}
+
+input:focus {
+  border: 1px solid #2e7d32;
+}
+
+.login-btn {
+  width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  background-color: #2e7d32;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+.login-btn:hover {
+  background-color: #256628;
+}
+
+.divider {
+  font-size: 12px;
+  margin: 15px 0;
+  color: gray;
+}
+
+.google-btn,
+.facebook-btn {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.google-btn {
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+}
+
+.facebook-btn {
+  background-color: #1877f2;
+  color: white;
+}
