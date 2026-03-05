@@ -9,7 +9,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-image: url("fondo\ Recycling\ Points.png");
+  background-image: url("../imagenes/fondo-recycling-points.jpg.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -27,7 +27,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 15px 35px;
-  background: rgba(255, 255, 255, 0);
+  background: rgba(137, 29, 29, 0);
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
   position: sticky;
   top: 0;
@@ -63,13 +63,13 @@ body {
 
 .navbar-center a {
   text-decoration: none;
-  color: rgb(255, 255, 255);
+  color: rgb(69, 143, 73);
   font-weight: bold;
   transition: 0.3s;
 }
 
 .navbar-center a:hover {
-  color: #098b48;
+  color: #1c6941;
 }
 
 .avatar img {
@@ -92,7 +92,7 @@ body {
   top: 0;
   width: 260px;
   height: 100%;
-  background: hsla(88, 60%, 60%, 0.428);
+  background: hsla(88, 68%, 42%, 0.428);
   box-shadow: 2px 0 8px rgba(0,0,0,0.2);
   padding: 20px;
   transition: 0.3s ease;
