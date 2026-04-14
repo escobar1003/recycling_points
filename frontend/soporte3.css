@@ -9,7 +9,9 @@
 body {
   margin: 0;
   padding: 0;
-  background-image: url("../imagenes/fondo-recycling-points.jpg.jpeg");  
+
+  background-image: url("../imagenes/fondorecycling.jpeg");
+
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
